@@ -27,14 +27,10 @@ body {
   color: var(--ink);
   font-family: 'DM Sans', 'Helvetica Neue', Arial, sans-serif;
   background-color: #e6e1d8;
-  background-image: linear-gradient(rgba(246, 243, 237, 0.68), rgba(246, 243, 237, 0.68)), url("Bianco+Atlantico+F2.webp");
+  background-image: linear-gradient(rgba(246, 243, 237, 0.2), rgba(246, 243, 237, 0.2)), url("./Bianco+Atlantico+F2.webp");
   background-position: center top;
   background-size: cover;
-  @media (max-width: 768px) {
-    body {
-        background-attachment: scroll;
-    }
-  }
+  background-repeat: no-repeat;
 }
 
 main {

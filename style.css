@@ -30,7 +30,11 @@ body {
   background-image: linear-gradient(rgba(246, 243, 237, 0.68), rgba(246, 243, 237, 0.68)), url("Bianco+Atlantico+F2.webp");
   background-position: center top;
   background-size: cover;
-  background-attachment: fixed;
+  @media (max-width: 768px) {
+    body {
+        background-attachment: scroll;
+    }
+  }
 }
 
 main {

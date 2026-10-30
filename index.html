@@ -1,10 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="it">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Listino prezzi Graffi e carezze</title>
+  <meta name="description" content="Listino prezzi di Graffi e carezze, nail center ed estetica a Torrita di Siena: mani, piedi, trucco, ciglia, depilazione, trattamenti viso e corpo.">
+  <link rel="icon" type="image/png" href="favicon.png">
+  <link rel="apple-touch-icon" href="favicon.png">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
   <link rel="stylesheet" href="style.css">
 
@@ -12,7 +14,7 @@
 <body>
 
   <main>
-    <h1><img src="logo1.png" alt=""></h1>
+    <h1><img src="logo1.png" alt="Graffi e carezze - Nail center ed estetica"></h1>
 
     <div class="listino">
 
@@ -90,7 +92,7 @@
     <h2>Trucco</h2>
 
     <div class="servizio">
-      <h3 class="servizio__nome">Sposa (comprese una prova)</h3>
+      <h3 class="servizio__nome">Sposa (compresa una prova)</h3>
       <p class="servizio__prezzo">€ 280</p>
     </div>
 
@@ -144,8 +146,8 @@
   <section class="categoria">
     <h2>Depilazione</h2>
 
-    <div class="servizio">
-      <h3 class="servizio__nome">Zona</h3>
+    <div class="servizio servizio--intestazione">
+      <p class="servizio__nome">Zona</p>
       <div class="servizio__prezzo">
         <p class="servizio__prezzo servizio__prezzo--donna">Donna</p>
         <p class="servizio__prezzo servizio__prezzo--uomo">Uomo</p>
@@ -341,8 +343,8 @@
   <section class="categoria">
     <h2>Pacchetti depilazione</h2>
 
-    <div class="servizio">
-      <h3 class="servizio__nome"></h3>
+    <div class="servizio servizio--intestazione">
+      <p class="servizio__nome">Pacchetto</p>
       <div class="servizio__prezzo">
         <p class="servizio__prezzo servizio__prezzo--donna">Donna</p>
         <p class="servizio__prezzo servizio__prezzo--uomo">Uomo</p>
@@ -350,7 +352,7 @@
     </div>
 
     <div class="servizio">
-      <h3 class="servizio__nome">Depilazione completa 1 <br>(gamba intera, inguine, baffetti,<br> e sopracciglia)</h3>
+      <h3 class="servizio__nome">Depilazione completa 1<span class="servizio__dettaglio">gamba intera, inguine, baffetti e sopracciglia</span></h3>
       <div class="servizio__prezzo">
         <p class="servizio__prezzo servizio__prezzo--donna">€ 32</p>
         <p class="servizio__prezzo servizio__prezzo--uomo">€ 40</p>
@@ -358,7 +360,7 @@
     </div>
 
     <div class="servizio">
-      <h3 class="servizio__nome">Depilazione completa 2 <br>(gamba intera, ascelle, inguine,<br>baffetti e sopracciglia)</h3>
+      <h3 class="servizio__nome">Depilazione completa 2<span class="servizio__dettaglio">gamba intera, ascelle, inguine, baffetti e sopracciglia</span></h3>
       <div class="servizio__prezzo">
         <p class="servizio__prezzo servizio__prezzo--donna">€ 40</p>
         <p class="servizio__prezzo servizio__prezzo--uomo">€ 47</p>
@@ -382,7 +384,7 @@
     </div>
 
     <div class="servizio">
-      <h3 class="servizio__nome">Depilazione parziale 1<br>(gamba mezza, inguine,<br>baffetti e sopracciglia)</h3>
+      <h3 class="servizio__nome">Depilazione parziale 1<span class="servizio__dettaglio">gamba mezza, inguine, baffetti e sopracciglia</span></h3>
       <div class="servizio__prezzo">
         <p class="servizio__prezzo servizio__prezzo--donna">€ 24</p>
         <p class="servizio__prezzo servizio__prezzo--uomo">€ 30</p>
@@ -390,7 +392,7 @@
     </div>
 
     <div class="servizio">
-      <h3 class="servizio__nome">Depilazione parziale 2<br>(gamba mezza, ascelle,<br>inguine, baffetti e sopracciglia)</h3>
+      <h3 class="servizio__nome">Depilazione parziale 2<span class="servizio__dettaglio">gamba mezza, ascelle, inguine, baffetti e sopracciglia</span></h3>
       <div class="servizio__prezzo">
         <p class="servizio__prezzo servizio__prezzo--donna">€ 30</p>
         <p class="servizio__prezzo servizio__prezzo--uomo">€ 35</p>
@@ -487,7 +489,7 @@
     </div>
 
     <div class="servizio">
-      <h3 class="servizio__nome">Pacchetto pressoterapia<br>(presso 30 minuti + bendaggio + elettrostimolazione 30 minuti)</h3>
+      <h3 class="servizio__nome">Pacchetto pressoterapia<span class="servizio__dettaglio">presso 30 minuti + bendaggio + elettrostimolazione 30 minuti</span></h3>
       <p class="servizio__prezzo">€ 65</p>
     </div>
 
@@ -504,19 +506,22 @@
         <p>Piazza della libertà 19</p>
         <p>53049 Torrita di Siena (SI)</p>
 
-        <p class="footer_line">
+        <p class="footer__line">
           <span>P.I. 01385440522</span>
         </p>
         
-        <p class="footer__line">
+        <p class="footer__line footer__contatto">
+            <svg class="footer__icona" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
             <span>Telefono 0577 685178</span>
         </p>
 
-        <p class="footer__line">
+        <p class="footer__line footer__contatto">
+            <svg class="footer__icona" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M3.5 20.5l1.3-4.3A8.5 8.5 0 1 1 8 19.3z"/><path d="M9.2 8.3c.3-.4.8-.4 1 0l.7 1.4c.1.3 0 .6-.2.8l-.4.4c.5 1.1 1.4 2 2.5 2.5l.4-.4c.2-.2.5-.3.8-.2l1.4.7c.4.2.4.7 0 1-.6.6-1.5.9-2.4.6a7 7 0 0 1-4.3-4.3c-.3-.9 0-1.8.5-2.5z"/></svg>
             <span>Whatsapp +39 3397184030</span>
         </p>
 
-        <p class="footer__line">
+        <p class="footer__line footer__contatto">
+            <svg class="footer__icona" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.3" cy="6.7" r=".6" class="footer__icona-punto"/></svg>
             <span>Instagram @graffiecarezze_</span>
         </p>
         
@@ -527,7 +532,7 @@
         </p>
 
         <p class="footer__note">
-            Prezzi aggiornati a agosto 2026<br>
+            Prezzi aggiornati ad agosto 2026<br>
             Questo sito non raccoglie dati personali degli utenti<br>
             Per le prenotazioni contattare i numeri indicati
         </p>
@@ -536,8 +541,6 @@
     </div>
 
   </footer>
-
-  <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
 
 </body>
 </html>
